@@ -1,0 +1,72 @@
+.tab-category {
+    width: 100%;
+    display: block;
+    margin: 50px auto;
+    height: 50px;
+}
+
+.tab-category .list-tab {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    display: table
+}
+
+.tab-category .list-tab li {
+    text-align: center;
+    display: table-cell
+}
+
+.tab-category .list-tab li a {
+    padding: 12px 0;
+    color: #AD5840;
+    font-family: "Dubai";
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    opacity: 1;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    transition: all 0.3s;
+
+}
+
+.tab-category .list-tab li hr {
+    display: block;
+    height: 2.5px;
+    width: 20%;
+    background: #AD5840;
+    border: 0;
+    transition: all 0.3s;
+    opacity: 0;
+
+}
+
+
+.tab-category .list-tab li.active a,
+.tab-category .list-tab li:hover a {
+    opacity: 1;
+    color: #DCD8CF;
+    transition: all 0.3s
+}
+
+.tab-category .list-tab li:hover hr {
+    width: 50%;
+    transition: all 0.3s
+}
+
+.tab-category .list-tab li.active hr,
+.tab-category .list-tab li:hover hr {
+    opacity: 1;
+    background: #DCD8CF;
+}
+
+@media screen and (min-width:768px) {
+    .tab-category .list-tab li a {
+        padding: 12px;
+        color: #AD5840;
+        font-family: "Dubai";
+        font-weight: 600;
+        letter-spacing: 1.2px
+    }
+}

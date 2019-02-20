@@ -1,0 +1,305 @@
+.main_login {
+    margin-bottom: 30px;
+    width: 450px
+}
+
+.main_login .name_login {
+    font-size: 20px;
+}
+
+.main_login ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 32px;
+    width: 100%;
+}
+
+.main_login ul.tabs li {
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    padding: 10px 21px;
+    line-height: 31px;
+    border-left: none;
+    font-weight: bold;
+    background: #EEEEEE;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.main_login ul.tabs li:hover {
+    background: #CCCCCC;
+}
+
+.main_login ul.tabs li.active {
+    background: #FFFFFF;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.main_login ul.tabs li:last-child {
+    display: none
+}
+
+.main_login .tab_container {
+    border-top: none;
+    width: 100%;
+    padding: 20px 20px 0;
+    background: #FFFFFF;
+
+}
+
+.main_login .tab_content {
+    padding: 20px;
+    font-size: 1.2em;
+    display: none;
+    margin-bottom: 25px;
+    margin-top: 10px
+}
+
+.main_login .tab_content:last-child {
+    display: none;
+}
+
+.main_login #container {
+    width: 600px;
+}
+
+.main_login input {
+    outline: 0;
+    height: 36px;
+    border: 0;
+    text-indent: 5px;
+    display: inline-block;
+    widows: calc(100% - 180px)
+}
+
+.main_login .phone-number {
+    border-bottom: 1.5px solid #E9E9E9;
+    margin-top: 25px;
+}
+
+.main_login .phone-number select {
+    width: 50px;
+    border: 0;
+    outline: 0
+}
+
+.main_login .phone-number select option span {
+    display: inline-block;
+    margin-left: 15px
+}
+
+.main_login .phone-number input {
+    color: #BDBDBD
+}
+
+.main_login .password {
+    border-bottom: 1.5px solid #E9E9E9;
+    margin-bottom: 50px;
+}
+
+.main_login .password input {
+    color: #BDBDBD
+}
+
+.main_login button {
+    border: 0;
+    display: block;
+    padding: 13px;
+    width: 100%;
+    border-radius: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #D2691E;
+    color: aliceblue;
+}
+
+.main_login .or {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.main_login .or hr {
+    display: inline-block;
+    width: 100px;
+    color: darkgrey
+}
+
+.main_login .or label {
+    margin: 0 15px;
+}
+
+.qrcode {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.scan-qrcode {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
+
+.link_sign_up {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+@media screen and (min-width:568px) {
+    .main_login {
+        /*
+        width: 380px;
+        height: 450px;
+        margin: auto;
+*/
+    }
+    #login .modal-dialog {
+        width: 480px;
+    }
+    .main_login .name_login {
+        font-size: 20px;
+    }
+    .main_login ul.tabs {
+        margin: 0;
+        padding: 0;
+        float: left;
+        list-style: none;
+        height: 32px;
+        /*    border-bottom: 1px solid #999999;*/
+        /*    border-left: 1px solid #999999;*/
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+    .main_login ul.tabs li {
+        float: left;
+        margin: 0;
+        cursor: pointer;
+        line-height: 31px;
+        /*    border: 1px solid #999999;*/
+        border-left: none;
+        font-weight: bold;
+        background: #EEEEEE;
+        overflow: hidden;
+        position: relative;
+        width: 50%
+    }
+    .main_login ul.tabs li:hover {
+        background: #CCCCCC;
+    }
+    .main_login ul.tabs li.active {
+        background: #FFFFFF;
+        border-bottom: 1px solid #E9E9E9;
+    }
+    .main_login ul.tabs li:last-child {
+        display: block
+    }
+    .main_login .tab_container {
+        /*    border: 1px solid #999999;*/
+        border-top: none;
+        clear: both;
+        float: left;
+        width: 100%;
+        background: #FFFFFF;
+    }
+    .main_login .tab_content {
+        padding: 20px;
+        font-size: 1.2em;
+        display: none;
+    }
+    .main_login #container {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .main_login input {
+        outline: 0;
+        height: 36px;
+        border: 0;
+        text-indent: 5px;
+    }
+    .main_login .phone-number {
+        border-bottom: 1.5px solid #E9E9E9;
+        margin-top: 40px;
+    }
+    .main_login .phone-number select {
+        width: 52px;
+        border: 0;
+        outline: 0
+    }
+    .main_login .phone-number select option span {
+        display: inline-block;
+        margin-left: 15px
+    }
+    .main_login .phone-number input {
+        color: #242424
+    }
+    .main_login .password {
+        border-bottom: 1.5px solid #E9E9E9;
+        margin-top: 40px;
+    }
+    .main_login .password input {
+        color: #242424;
+        margin-left: 52px;
+        border-bottom: .5px solid #E9E9E9;
+
+    }
+    .main_login button {
+        border: 0;
+        display: block;
+        padding: 13px 25px;
+        border-radius: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background: #8A533D;
+        color: aliceblue;
+        margin-top: 80px;
+        border: 1px solid #8A533D;
+        font-size: 1.7rem;
+        transition: all 0.3s
+    }
+    .main_login button:hover {
+        background: aliceblue;
+        color: #8A533D;
+        border: 1px solid #8A533D;
+        transition: all 0.3s
+    }
+    /*
+    .main_login button:last-child {
+        background: aliceblue;
+        color: #29b6f6;
+    }
+*/
+    .main_login .or {
+        margin: 15px auto;
+        text-align: center;
+    }
+    .main_login .or hr {
+        display: inline-block;
+        width: 100px;
+        color: darkgrey
+    }
+    .main_login .or label {
+        margin: 0 15px;
+    }
+    .qrcode {
+        text-align: center;
+        margin-bottom: 25px;
+        margin-top: 18px
+    }
+    .scan-qrcode {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+        color: dimgrey;
+    }
+    .link_sign_up {
+        text-align: center;
+        margin-top: 22px;
+        font-size: 14px;
+    }
+}

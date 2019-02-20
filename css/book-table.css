@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /*    font-family: "Dubai", Helvetica, Arial, sans-serif;*/
+    /*    background: white*/
+}
+
+.wellcome {
+    text-align: center;
+    font-size: 22px;
+    color: #8A533D
+}
+
+.div-pic {
+    display: block;
+    margin: 0px 0px 30px 0px;
+}
+
+.pic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.frame {
+    margin: 0 0 20px 0;
+    position: relative;
+    border: 0.1px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+}
+
+.frame:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .9);
+    transition: all 0.3s;
+    transform: translateY(-4px);
+}
+
+.link > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -50px
+}
+
+.title {
+    color: #8A533D;
+    position: absolute;
+    font-size: 14px;
+    text-align: center;
+    top: 80%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX(-50%)
+}
+
+.title b {
+    display: inline-block;
+}
+
+@media screen and (min-width: 568px) {
+    .title {
+        font-size: 18px;
+        top: 85%;
+    }
+    .div-pic {
+        margin: 0px 0px 30px 0px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wellcome {
+        font-size: 30px;
+    }
+    .div-pic {
+        margin: 0px 0px 40px 0px;
+    }
+    .frame {
+        margin: 0 0 35px 0;
+    }
+    .title {
+        font-size: 20px;
+        top: 86%;
+    }
+
+}

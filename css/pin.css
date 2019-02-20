@@ -1,0 +1,249 @@
+.pin .body {
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #5D4037;
+    background-color: white;
+}
+
+.pin .body hr {
+    border: 1px #5D4037 solid;
+}
+
+.pin .content-info {
+    background: #fff;
+    margin-top: 50px;
+}
+
+.pin .choose ul,
+.pin .choose li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.pin .btn {
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    height: 36px;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pin .choose {
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.pin .pf {
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    border-left: 2px solid rgba(0, 0, 0, 0);
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.pin .if {
+    color: #5D4037
+}
+
+.pin .pf a {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #5D4037;
+}
+
+.pin .list-tab > li.active,
+.pin .pf:hover {
+    background-color: #A1887F;
+    border-left: 5px solid #6f4e37;
+    color: white !important;
+}
+
+.pin .pf:hover a,
+.pin .pf:hover a,
+.pin .list-tab > li.active a {
+    background-color: #A1887F;
+    color: white !important;
+}
+
+.pin .btn:hover {
+    background-color: #8D6E63 !important;
+    color: #fff !important;
+    transition: 0.3s;
+}
+
+.pin .list-tab > li.active {
+    display: block
+}
+
+.pin .pin .minfo {
+    border-left: 1px solid #BDBDBD;
+}
+
+.pin .list-tab > li.active td {
+    vertical-align: middle;
+}
+
+.pin .alignavt {
+    margin-top: 20px;
+}
+
+.pin .tab.active {
+    display: block !important;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.pin .avt {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    float: right;
+    margin-right: 10px;
+}
+
+.pin .avt img {
+    width: 100%;
+    object-fit: cover;
+    height: 60px;
+}
+
+.pin .h1 {
+    height: 60px;
+    color: #5D4037
+}
+
+.pin .password {
+    display: none;
+}
+
+.pin .pw {
+    border: 1px solid #5D4037;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.pin .btnpwd {
+    margin-top: 10px;
+}
+
+.pin .left {
+    text-align: right;
+    padding-right: 30px !important;
+    height: 30px;
+    padding-top: 6px;
+    /*    font-size: 14px;*/
+}
+
+.pin .right {
+    text-align: left;
+}
+
+.pin .mid input {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+}
+
+.pin .left,
+.pin .right {
+    margin-bottom: 10px;
+}
+
+.pin .mid {
+    margin-bottom: 10px;
+    color: #5D4037;
+}
+
+.pin #cancel,
+.pin #change {
+    width: 100%;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px #5D4037 solid;
+}
+
+.pin #cancel {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .pin .avt {
+        margin: 0 auto;
+        width: 160px;
+        height: 160px;
+        border-radius: 100%;
+        overflow: hidden;
+        display: block;
+        float: none;
+    }
+    .pin .avt img {
+        width: 100%;
+        object-fit: cover;
+        height: 160px;
+    }
+
+    .pin .h1 {
+        height: 60px;
+        text-align: center;
+    }
+
+    .pin .left {
+        text-align: left !important;
+        padding-right: 30px !important;
+        height: 30px;
+        padding-top: 6px;
+    }
+
+    .pin #cancel,
+    .pin #change {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .pin .body {
+        width: 100%;
+    }
+
+    .pin .choose {
+        margin-left: -1px;
+        margin-right: -1px;
+    }
+
+    .pin .fixed-button {
+        position: fixed;
+        border-radius: 100px;
+        width: 40px;
+        height: 40px;
+        right: 5px;
+        display: block;
+        border: 0 !important;
+        background-color: #EEEEEE !important;
+        line-height: 40px;
+        text-align: center;
+        padding: 0;
+        z-index: 9999;
+        box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
+        color: black;
+        transition: 0.3s;
+    }
+    .pin .fixed-button.up {
+        top: 30%;
+    }
+    .pin .fixed-button.down {
+        top: 40%
+    }
+
+    .pin .fixed-button.active,
+    .pin .fixed-button:hover {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+        border-left: 2px solid #616161;
+        box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.2);
+    }
+}

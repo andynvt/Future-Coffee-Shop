@@ -1,0 +1,181 @@
+.breadcrumb {
+    margin-top: 50px;
+    margin-bottom: 0;
+    background: #DCD8CF;
+    padding: 15px;
+    color: #8A533D;
+
+}
+
+.breadcrumb a {
+    color: #8A533D;
+    font-family: "Dubai";
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.breadcrumb a:hover {
+    color: #888;
+    font-family: "Dubai";
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.breadcrumb span {
+    color: #777;
+    font-weight: 500;
+    font-family: "Dubai";
+    font-size: 2rem
+}
+
+.breadcrumb > li + li:before {
+    color: #8A533D;
+    font-size: 2rem
+}
+
+.gallery {
+    width: 80px;
+    height: 480px
+}
+
+.gallery .img-1 {
+    margin-top: 15px;
+}
+
+.gallery img {
+    width: calc(480px/4 - 25px);
+    height: calc(480px/4 - 15px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 12px;
+    transition: all 0.3s
+}
+
+.gallery img:hover {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+    cursor: pointer
+}
+
+.detail-product .img-view {
+    width: calc(100% - (480px/4 - 25px));
+    padding: 15px 0 15px 15px;
+    height: 480px;
+}
+
+.detail-product .img-view img {
+    height: 455px;
+    object-fit: contain;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.detail-product .image {
+    display: flex;
+    justify-content: space-between;
+    padding: 0
+}
+
+.detail-container {}
+
+.checkout {
+    min-height: 430px;
+    margin-top: 15px;
+}
+
+.checkout .info-1 {
+    height: 50px;
+    margin-bottom: 5px;
+    font-family: "Dubai"
+}
+
+.checkout .info-1 > h2 {
+    margin-top: 10px;
+}
+
+.checkout .info-2 {
+    height: 70px;
+    margin-bottom: 10px
+}
+
+.checkout .info-2 label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px
+}
+
+.checkout .info-2 .form-control {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 5px
+}
+
+.checkout .info-2 button {
+    display: inline-block;
+    margin-top: -2px
+}
+
+.checkout .info-3 {
+    height: 75px;
+    margin-bottom: 25px
+}
+
+.checkout .info-3 label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 18px
+}
+
+.checkout .info-3 h2 {
+    margin: 0
+}
+
+.checkout .info-4 {
+    height: 50px;
+    margin-bottom: 5px
+}
+
+.checkout .info-4 button {
+    display: inline-block;
+    margin-bottom: 5px
+}
+
+.checkout .info-5 {
+    height: 50px;
+}
+
+.checkout .info-5 label {
+    display: block
+}
+
+.title-header {
+    background: #DCD8CF;
+    padding: 10px 15px;
+    margin: 15px 0;
+    border-radius: 4px
+}
+
+.title-header h2 {
+    background: #DCD8CF;
+    padding: 10px 0;
+    margin: 0;
+    border-radius: 4px;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #8A533D;
+    font-family: "Dubai"
+}
+
+@media screen and (max-width:767px) {
+    .info {
+        border: 1px solid #e0e0e0;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 15px;
+        margin-top: 15px;
+    }
+}
+
+.info-box {
+    margin-top: -5px;
+    padding-top: 5px;
+}

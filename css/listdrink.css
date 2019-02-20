@@ -1,0 +1,355 @@
+.list-drink {
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.padding-sm-30 {
+    padding-left: 0;
+}
+
+@media screen and (min-width:992px) {
+    .padding-sm-30 {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .list-drink {
+        padding-right: 0;
+        position: relative;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .list-drink {
+        padding-left: 0;
+        padding-right: 0;
+        position: relative;
+
+    }
+    .padding-sm-30 {
+        padding-left: 0;
+    }
+}
+
+.leftsidebar.fixed-top .navbar {
+    position: fixed;
+    top: 64px
+}
+
+.leftsidebar.fixed-top .navbar-filter {
+    position: fixed;
+}
+
+.leftsidebar .sidebar-category {
+    padding-right: 10px;
+}
+
+.leftsidebar .sidebar-category .title {
+    margin-left: -30px;
+    background: #8A533D;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2)
+}
+
+.leftsidebar .sidebar-category .title h4 {
+    margin-bottom: 0;
+    padding: 10px 15px;
+}
+
+.leftsidebar .sidebar-category > ul {
+    margin-left: -30px;
+    background: #444;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2)
+}
+
+.leftsidebar .sidebar-category > ul > li {
+    padding: 8px 15px
+}
+
+.leftsidebar .sidebar-category > ul > li > a {
+    cursor: pointer;
+    color: #fff
+}
+
+.leftsidebar .sidebar-filter {
+    padding-right: 10px;
+}
+
+.leftsidebar .sidebar-filter .title {
+    margin-left: -30px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3)
+}
+
+.leftsidebar .sidebar-filter .title h4 {
+    margin-bottom: 0;
+    padding: 10px 15px;
+}
+
+.leftsidebar .sidebar-filter .filter-slider {
+    margin-left: -30px;
+    background: #8A533D;
+    padding: 5px 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3)
+}
+
+.range-slider {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+}
+
+.range-slider input[type="range"] {
+    pointer-events: none;
+    position: absolute;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-radius: 14px;
+    background: #F1EFEF;
+    box-shadow: inset 0 1px 0 0 #cdc6c6, inset 0 -1px 0 0 #d9d4d4;
+    -webkit-box-shadow: inset 0 1px 0 0 #cdc6c6, inset 0 -1px 0 0 #d9d4d4;
+    left: 0;
+    top: 0;
+    outline: none;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.range-slider input[type="range"]::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+    -webkit-appearance: none;
+    width: 14px;
+    height: 24px;
+    border: none;
+    border-radius: 8px;
+    background: #444
+}
+
+.range-slider input[type="range"]::-moz-range-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 2;
+    -moz-appearance: none;
+    width: 14px;
+    height: 24px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, #dad8da 0, #413F41 100%);
+}
+
+.range-slider input[type=range]::-moz-range-track {
+    position: relative;
+    z-index: -1;
+    background-color: black;
+    border: 0;
+}
+
+.range-slider input[type=range]::-moz-focus-outer {
+    border: 0;
+}
+
+.list-drink .product {}
+
+.list-drink .product > div {
+    padding: 0 0 15px;
+}
+
+.list-drink .title {
+    margin: 0 -22px;
+    background: #444
+}
+
+.list-drink .title h4 {
+    color: #fff;
+    padding: 10px 15px
+}
+
+.leftsidebar .banner {
+    position: relative
+}
+
+.leftsidebar .banner .image {
+    height: 240px;
+}
+
+.leftsidebar .banner .image img {
+    height: 240px
+}
+
+.leftsidebar .banner .info {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    transform: translateY(-50%)
+}
+
+.leftsidebar .banner .info .name {
+    float: none;
+    width: 100%;
+    padding: 10px 15px
+}
+
+.leftsidebar .banner .info .name h4 {
+    padding: 10px 15px 0;
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.leftsidebar .banner .info .name p {
+    color: #f1f1f1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0 15px;
+
+}
+
+.leftsidebar .banner button {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    right: 20%
+}
+
+.leftsidebar .banner .leftRs {
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: auto;
+    bottom: 2px
+}
+
+.leftsidebar .banner .rightRs {
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 2px
+}
+
+.leftsidebar {
+    padding: 0 6px
+}
+
+.list-name {
+    padding: 2px 8px;
+    text-align: center;
+    background: #8A533D;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Dubai";
+    margin-left: 6px;
+    width: calc(100% - 12px);
+    margin-bottom: 15px;
+    border-radius: 5px 5px 0 0
+}
+
+.list-name h4 {
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    font-size: 2.4rem
+}
+
+.sidebar-name {
+    background-color: #DCD8CF !important;
+    color: #8A533D !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-family: "Dubai";
+    cursor: default !important;
+    z-index: 0 !important
+}
+
+#list-kind .list-group-item a {
+    color: #8A533D;
+    font-family: "Dubai" !important;
+    letter-spacing: 0.75px
+}
+
+#list-kind .list-group-item.active a,
+#list-kind .list-group-item:hover a {
+    color: #f5f5f5
+}
+
+#list-kind .list-group-item.active,
+#list-kind .list-group-item:hover {
+    background-color: #bbb;
+    cursor: pointer
+}
+
+.list-group-item.active {
+    border: none;
+    z-index: 0
+}
+
+
+.btn-grid:focus,
+.btn-list:focus,
+.btn-grid:active,
+.btn-list:active,
+.btn-grid:hover,
+.btn-list:hover,
+.btn-grid.active,
+.btn-list.active {
+    background: #8A533D;
+    color: #DCD8CF;
+    outline: 0 !important
+}
+
+.btn-grid,
+.btn-list {
+    border: 1px solid #8A533D;
+    background: #DCD8CF;
+    color: #8A533D;
+    outline: 0 !important
+}
+
+
+.quantityAlert {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-family: "Dubai"
+}
+
+.pagination {
+    color: #242424
+}
+
+.pagination li {}
+
+.pagination li a {
+    color: #242424;
+    background: 0;
+    border: 0;
+
+}
+
+.pagination li:hover a,
+.pagination li:focus a,
+.pagination li:active a,
+.pagination li.active a,
+.pagination li.active a:active,
+.pagination li.active a:focus,
+.pagination li.active a:hover {
+    background: #A35135;
+    border: 0;
+    color: #fff;
+    border-radius: 0
+}
+
+.banner-ad {
+    background: url(http://localhost/CoffeeShop/image/bg-container.jpg) repeat 0 0;
+    padding: 25px 0 80px
+}
+
+.list-menu {
+    padding: 25px 0 80px
+}

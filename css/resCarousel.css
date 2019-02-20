@@ -1,0 +1,96 @@
+/*resCarousel Css*/
+
+.outt {
+    display: none;
+}
+
+.leftRs,
+.rightRs {
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    top: -5%;
+    bottom: 0;
+    z-index: 9;
+    width: 30px;
+    height: 50px;
+    box-shadow: 1px 2px 10px -1px rgba(0, 0, 0, .3);
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    color: #fff;
+    font-size: 3rem;
+    padding: 0;
+    outline: 0 !important;
+    transition: all 0.3s;
+}
+
+.leftRs:active,
+.rightRs:active,
+.leftRs:hover,
+.rightRs:hover,
+.leftRs:focus,
+.rightRs:focus {
+    background: rgba(0, 0, 0, 0.9);
+    transition: all 0.3s;
+    font-size: 4rem;
+    height: 80px
+}
+
+.rightRs {
+    left: auto;
+    right: 0px;
+}
+
+.resCarousel {
+    float: left;
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.resCarousel-inner {
+    overflow-x: hidden;
+    white-space: nowrap;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.resCarousel-inner .item {
+    display: inline-block;
+    font-size: 14px;
+    white-space: initial;
+}
+
+
+/*tile css*/
+
+.resCarousel-inner .item .tile {
+    background: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin: 5px;
+}
+
+
+/*animation*/
+
+.resCarousel[data-animator="lazy"] .item {
+    transition: .6s ease all;
+}
+
+.resCarousel-inner {
+    overflow: hidden
+}
+
+@media (max-width: 767px) {
+    .leftRs,
+    .rightRs {
+        /*display: none;*/
+    }
+    .resCarousel-inner {
+        overflow: hidden
+    }
+}
+
+
+/*resCarousel Css End

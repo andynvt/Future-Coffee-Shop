@@ -1,0 +1,148 @@
+.modal-content-feed-back {
+    min-height: 450px;
+    height: auto !important;
+    color: #8A533D;
+}
+
+.modal-dialog-feed-back {
+    width: 30%;
+    min-height: 450px;
+    height: auto !important;
+}
+
+.rate-feed-back {
+    display: table;
+    width: 100%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.check-star-feed-back .success-box {
+    display: table-cell;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    text-align: left;
+    width: 20%;
+    min-width: 190px;
+    vertical-align: middle;
+}
+
+.check-star-feed-back .success-box img {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.check-star-feed-back .img-feed-back {
+    width: 32px;
+    height: 32px;
+}
+
+.check-star-feed-back .success-box .text-message {
+    vertical-align: middle;
+    display: inline-block;
+    color: #8A533D;
+}
+
+.check-star-feed-back .rating-stars {
+    display: table-cell;
+    padding: 5px 5px;
+    vertical-align: middle;
+    width: 80%;
+}
+
+.check-star-feed-back .rating-stars ul {
+    list-style-type: none;
+    padding: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.check-star-feed-back .rating-stars ul > li.star {
+    display: inline-block;
+
+}
+
+.check-star-feed-back .rating-stars ul > li.star > i.fa {
+    font-size: 32px;
+    color: #ccc;
+}
+
+.check-star-feed-back .rating-stars ul > li.star.hover > i.fa {
+    color: #FFCC36;
+}
+
+.check-star-feed-back .rating-stars ul > li.star.selected > i.fa {
+    color: #FF912C;
+}
+
+.modal-body-feed-back {
+    position: relative;
+    /*    display: none;*/
+    height: auto;
+}
+
+.cmt-feed-back {
+    min-height: 200px;
+}
+
+.cmt-feed-back-1 {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.cmt-feed-back-3,
+.cmt-feed-back-5 {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content-feed-back {
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.content-feed-back textarea {
+    width: 100%;
+    padding: 10px;
+    color: #8A533D;
+    border: 1px solid #8A533D;
+}
+
+/*
+.modal-footer-feed-back {
+    display: none;
+}
+*/
+
+.btn-feed-back {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.btn-feed-back button {
+    width: 100%;
+    font: 32px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #5D4037;
+    background: #fff;
+    transition: all 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .9);
+    color: #8A533D;
+}
+
+.btn-feed-back button:hover {
+    color: #fff;
+    background: #5D4037;
+    transition: all 0.3s;
+    transform: translateY(-4px);
+}

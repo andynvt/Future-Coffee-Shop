@@ -1,0 +1,128 @@
+.service-detail {
+    width: auto;
+    height: auto;
+    color: #8A533D;
+}
+
+.service-detail hr {
+    border: 1px solid #8A533D !important;
+}
+
+.service-info {
+    margin-top: 30px;
+}
+
+.info-service {
+    padding: 0 10px;
+}
+
+.service-detail img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.service-detail .info-service h1 {
+    margin-top: 0;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.service-detail .info-service label {
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: 130px;
+}
+
+.service-detail .info-service input {
+    width: 50px;
+    font-size: 22px;
+}
+
+.service-detail .info-service .btn-detail-service button {
+    margin: 6px 0 0 80px;
+    width: 25%;
+    padding: 7px 10px;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid #8A533D;
+    transition: 0.3s all;
+    font-size: 22px;
+}
+
+.service-detail .info-service .btn-detail-service button:hover {
+    color: #fff;
+    background: #8A533D;
+    transform: translateY(-4px);
+    transition: 0.3s all;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+
+/*Description*/
+
+.service-detail .service-des {
+    padding: 10px 15px;
+    margin-top: 30px;
+    height: auto;
+    min-height: 200px;
+}
+
+.service-detail .service-des p {
+    font-size: 22px;
+}
+
+
+/*Other service*/
+
+.service-detail .div-pic {
+    display: inline-block;
+    margin: 0px 0px 30px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.service-detail .pic {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.service-detail .frame {
+    margin: 0 0 30px 0;
+    position: relative;
+    border: 0.1px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+}
+
+.service-detail .frame:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .9);
+    transition: all 0.3s;
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
+.service-detail .frame:hover .detail-service-karaoke {
+    transform: translateX(0);
+    transition: 1s all;
+}
+
+.service-detail .link > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.service-detail .title-table {
+    position: absolute;
+    font-size: 22px;
+    text-align: center;
+    bottom: 2%;
+    left: 50%;
+    white-space: nowrap;
+    transform: translateX(-50%)
+}
